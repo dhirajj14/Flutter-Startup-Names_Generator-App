@@ -1,4 +1,4 @@
-# startupnamegenerator
+# Start-up Name Generator
 
 A new Flutter application to generate startup names
 
