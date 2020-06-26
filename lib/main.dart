@@ -7,7 +7,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Welcome to Flutter',
+      debugShowCheckedModeBanner: false,
+      title: 'Start-Up Name Generator',
       theme: ThemeData(primaryColor: Colors.amberAccent),
       home: RandomNames(),
     );
@@ -27,7 +28,7 @@ class _RandomNamesState extends State<RandomNames> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Startup Name Generator'),
+        title: Text('Start-Up Name Generator'),
         actions: [
           IconButton(icon: Icon(Icons.list), onPressed: _pushSaved),
         ],
